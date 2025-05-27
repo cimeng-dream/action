@@ -15,16 +15,14 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
+          kernel-url: https://github.com/liyafe1997/kernel_xiaomi_sm8250_mod
           kernel-dir: msm-4.19
-          kernel-branch: taffy
-          config: cas_defconfig
+          kernel-branch: android15-lineage22-mod
+          config: elish_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          ksu: true
-          ksu-version: main
-          android-version: 12
+          android-version: 13
           aosp-clang-version: r383902
           disable-lto: true
           anykernel3: true
