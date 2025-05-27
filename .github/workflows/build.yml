@@ -26,7 +26,7 @@ jobs:
           #ksu-version: nongki
           #ksu-url: https://github.com/SukiSU-Ultra/SukiSU-Ultra
           lxc: true
-          lxc-patch: true
+          #lxc-patch: true
           nethunter: true
           #nethunter-patch: true
           kvm: true
