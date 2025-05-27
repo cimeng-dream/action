@@ -28,7 +28,7 @@ jobs:
           lxc: true
           #lxc-patch: true
           nethunter: true
-          nethunter-patch: true
+          #nethunter-patch: true
           kvm: true
           android-version: 12
           aosp-clang-version: r383902
