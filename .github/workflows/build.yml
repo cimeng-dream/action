@@ -22,6 +22,14 @@ jobs:
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
+          ksu: true
+          ksu-version: main
+          ksu-url: https://github.com/SukiSU-Ultra/SukiSU-Ultra
+          lxc: true
+          lxc-patch: true
+          nethunter: true
+          nethunter-patch: true
+          kvm: true
           android-version: 12
           aosp-clang-version: r383902
           disable-lto: true
